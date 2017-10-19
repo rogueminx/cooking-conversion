@@ -13,16 +13,18 @@
     <h1>Cooking Convesions</h1>
     <form id="convert">
       <div class="form-group">
-        <label for="add1">1st number:</label>
-        <input id="add1" class="form-control" type="text">
+        <label for="cups">Number of cups:</label>
+        <input id="cups" class="form-control" type="text">
       </div>
       <div class="form-group">
-        <label for="add2">2nd number:</label>
-        <input id="add2" class="form-control" type="text">
+        <label for="ounces">Number of ounces:</label>
+        <input id="ounces" class="form-control" type="text">
       </div>
-      <button type="submit" class="btn">Add!</button>
+      <button type="submit" class="btn">Convert!</button>
     </form>
-    <div id="output">
+    <div id="results">
+      <p>That equals: <span id="output1"> </span> tablespoons</p>
+      <p>That equals: <span id="output2"> </span> quarts</p>
     </div>
   </body>
 </html>
